@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="BQq5jFl8v_tS8-v_Nik7">
-    <mxGraphModel>
+    <mxGraphModel dx="1224" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-1" target="fPDWzeKnm7gVpnzR8Eok-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-5" value="Maintain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fPDWzeKnm7gVpnzR8Eok-4">
+          <mxGeometry x="-0.1091" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-1" value="DevOps&lt;div&gt;(Me)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-2" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-6" target="fPDWzeKnm7gVpnzR8Eok-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-6" value="Operator ( 30+ )" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-7" value="Developer ( 500+ )" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-15" target="fPDWzeKnm7gVpnzR8Eok-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-14" value="Maintain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fPDWzeKnm7gVpnzR8Eok-13">
+          <mxGeometry x="-0.1091" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-15" value="DevOps&lt;div&gt;(NOT Me)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-16" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-17" target="fPDWzeKnm7gVpnzR8Eok-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-17" value="Operator&lt;div&gt;(Me)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fPDWzeKnm7gVpnzR8Eok-20" target="fPDWzeKnm7gVpnzR8Eok-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPDWzeKnm7gVpnzR8Eok-20" value="Developer ( 1000+ )" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
